@@ -1,0 +1,7 @@
+.l-main {
+  @include outer-container;
+  padding: 2em;
+  @include media($medium-screen) {
+    padding: 1em;
+  }
+}

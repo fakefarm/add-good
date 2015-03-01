@@ -1,0 +1,12 @@
+.action {
+  margin: 1em 0 3em;
+  background: #eee;
+  border: 1px solid $light-gray;
+  border-radius: 4px;
+  padding: 1em;
+  text-align: center;
+  @include media($medium-screen) {
+    margin: 3em 0 5em;
+    padding: 3em;
+  }
+}
